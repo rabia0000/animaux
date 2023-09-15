@@ -1,0 +1,28 @@
+body {
+  max-width: 1200px;
+  margin: auto;
+  background-image: url(/images/bg.jpg);
+}
+
+
+h1{
+text-align: center;
+color: green
+}
+.galerie{
+ flex-direction: row;
+ display: inline-flex;
+ flex-wrap: wrap;
+ align-items: flex-start;
+justify-content: center;
+}
+
+
+ img {
+ 
+ /* flex: 1 1 auto; */
+width: 10rem;
+height: 10rem;
+border: 2px solid white;
+ 
+  }
